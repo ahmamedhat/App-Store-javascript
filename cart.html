@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <script src="cartScript.js"></script>    
+    <link rel="icon" href="apple.png" type="image/icon type">   
+    <title>Cart</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img id="logo" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/488px-Apple_logo_grey.svg.png" alt="logo"></a>
+        </div>
+        
+    </nav>
+    
+    <div class="container">
+        <div class="items">
+
+
+        </div>
+
+        <div class="form">
+            
+            <form action="#" id="formTax">
+
+                <label for="cities">City:</label>
+                <select name="cities" id="cities">
+                    <option value="">Choose a City</option>
+                    <option value="1">NewYork</option>
+                    <option value="2">Texas</option>
+                    <option value="3">Florida</option>
+                </select>
+                <br>
+                <label for="Address">Address:</label> 
+                <textarea name="Address" id="address" cols="30" rows="4"></textarea>
+                <br>
+                <div class="radio-btn">
+                    <p>Payment:</p> 
+                    <label for="credit">
+                        <input type="radio" name="payment" value="credit" id="credit">
+                        Credit Card
+                    </label>
+                    <label for="cash">
+                        <input type="radio" name="payment" value="cash" id="cash">
+                        Cash
+                    </label>
+                    
+                </div>
+                
+                <button>Calculate Taxes</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

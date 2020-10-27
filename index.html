@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="apple.png" type="image/icon type">    
+    <title>Shopping Cart</title>
+</head>
+<body>
+
+    <nav>
+        <img id="logo" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/488px-Apple_logo_grey.svg.png" alt="logo">
+        
+        <div class="cart">
+            <div class="imgcontainer">
+                <img id="cart" src="pngwing.com.png" alt="cart">
+            </div>
+            
+                
+                <table id="cart-content" class="cart-cont">
+                    <th>Bag is Empty</th>
+                    <th colspan="3"><button id="cart-btn">Checkout</button></th>
+                </table>
+            
+        </div>
+    </nav>
+    
+    <div class="container">
+
+        <h1>Shop Mac</h1>
+        <div class="first-row">
+            <div class="item-card">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1541713862468" alt="item">
+                <h4>1.1GHz Dual-Core Core i3 Processor with Turbo Boost up to 3.2GHz
+                    256GB Storage
+                    Touch ID</h4>
+                
+                <button class="add" data-id="1">Add to Bag</button>
+            </div>
+            <div class="item-card">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-space-select-202005?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1587460552755" alt="item">
+                <h4>1.4GHz Quad-Core Processor with Turbo Boost up to 3.9GHz
+                    256GB Storage
+                    Touch Bar and Touch ID</h4>
+                
+                <button class="add" data-id="2">Add to Bag</button>
+            </div>
+            <div class="item-card">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-215-selection-hero-201706?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1570231130149" alt="item">
+                <h4>2.3GHz Dual-Core Processor with Turbo Boost up to 3.6GHz
+                    256GB Storage</h4>
+                
+                <button class="add" data-id="3">Add to Bag</button>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="item-card">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-21-retina-selection-hero-201903?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1553120924619" alt="item">
+                <h4>3.6GHz Quad-Core Processor
+                    256GB Storage
+                    Retina 4K Display</h4>
+                
+                <button class="add" data-id="4">Add to Bag</button>
+            </div>
+            <div class="item-card">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-hero-splitter?wid=493&hei=490&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1572645163008" alt="item">
+                <h4>Mac Pro</h4>
+                
+                <button class="add" data-id="5">Add to Bag</button> 
+            </div>
+            <div class="item-card">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MYTV2_VW_34FR+watch-44-alum-gold-nc-se_VW_34FR_WF_CO_GEO_US?wid=375&hei=356&trim=1,0&fmt=p-jpg&qlt=95&op_usm=0.5,0.5&.v=1599071862000,1602199097000" alt="item">
+                <h4>Apple Watch</h4>
+                
+                <button class="add" data-id="6">Add to Bag</button>
+            </div> 
+        </div>    
+    </div>
+    
+</body>
+</html>
